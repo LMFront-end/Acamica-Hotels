@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+.filters {
+    padding: 5px;
+    background-color: #3498db;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "dateFrom dateTo" "countries countries" "prices prices" "sizes sizes" "reset reset";
+}
+
+.filters__dateFrom {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6fa;
+    grid-area: dateFrom;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    outline: none;
+}
+
+.filters__dateTo {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6fa;
+    grid-area: dateTo;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    outline: none;
+}
+
+.filters__countries {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6fa;
+    grid-area: countries;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    outline: none;
+}
+
+.filters__prices {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6fa;
+    grid-area: prices;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    outline: none;
+}
+
+.filters__sizes {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f6fa;
+    grid-area: sizes;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px;
+    outline: none;
+}
+
+
+/* Responsive*/
+
+@media screen and (min-width: 672px) {
+    .filters {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+}

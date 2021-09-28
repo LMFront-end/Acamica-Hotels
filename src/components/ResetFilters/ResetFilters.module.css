@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+.filters__reset {
+    grid-area: reset;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #e74c3c;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.iconButton {
+    left: 10px;
+    top: 8px;
+    color: #596275;
+}
+
+
+/*FOR DESKTOP*/
+
+@media screen and (min-width: 672px) {
+    .filters__reset {
+        margin: 1px;
+    }
+    .filter__reset:hover {
+        color: #fff;
+        background-color: #6ab04c;
+    }
+    .iconButton {
+        border-right: 20px;
+        left: 10px;
+        top: 8px;
+        color: #596275;
+    }
+}

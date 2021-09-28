@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+.hotelCard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin: 10px;
+    box-shadow: 2px 2px 1px lightgray;
+    border: 1px solid #F3F3F3;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.hotelCard__img {
+    max-width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.hotelCard__name {
+    padding: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: #292828;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hotelCard__description {
+    padding: 0 15px;
+    text-align: justify;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: #3F3F3F;
+}
+
+.hotel__location {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hotelCard__location__icon {
+    padding: 4px;
+    font-size: 24px;
+    color: white;
+    background-color: #335AFF;
+    opacity: 0.8;
+    border-radius: 5px 0 0 5px;
+}
+
+.hotelCard__location__text {
+    padding: 5px;
+    background-color: #EEEEEE;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: #130f40;
+}
+
+.hotelCard__info {
+    display: flex;
+    align-items: center;
+    color: #130f40;
+}
+
+.hotelCard__info__room {
+    padding: 2px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hotelCard__info__room__icon {
+    padding: 4px;
+    font-size: 24px;
+    color: white;
+    background-color: #335AFF;
+    opacity: 0.8;
+    border-radius: 5px 0 0 5px;
+}
+
+.hotelCard__info__room__text {
+    padding: 5px;
+    background-color: #EEEEEE;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    color: #130f40;
+}
+
+.hotelCard__info__price {
+    padding: 4px;
+    background-color: #335AFF;
+    opacity: 0.8;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+
+/* .hotelCard__info__price__text {}
+ */
+
+.hotelCard__btn {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: #33DCFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hotelCard__btn:hover {
+    background-color: #2ed573;
+    color: #2c3e50;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+
+/*Responsive*/
+
+@media screen and (min-width: 672px) {
+    .hotelCard {
+        width: 30%;
+    }
+    .hotelCard__name:hover {
+        cursor: pointer;
+        color: #009432;
+        transform: scale(1.1);
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+    }
+}

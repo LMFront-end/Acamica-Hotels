@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400&display=swap');
+
+/* .header__video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+.header {
+    width: 100%;
+    padding: 50px 15px;
+    background-color: #63cdda;
+    text-transform: uppercase;
+}
+
+.header__title {
+    border-bottom: 50px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.header__title:hover {
+    transform: scale(1.7);
+    color: #FFC312;
+    cursor: pointer;
+    -webkit-transform: scale(1.7);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(1.7);
+    -ms-transform: scale(1.7);
+    -o-transform: scale(1.7);
+    transition: all .5s ease;
+}
+
+.header__title__span {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #2c3e50;
+    text-decoration: none
+}

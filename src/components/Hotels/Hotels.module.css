@@ -1,0 +1,21 @@
+    .hotelList {
+        margin: 25px 15px;
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .searchText {
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: dimgrey;
+        text-align: center;
+    }
+    
+    @media screen and (min-width: 672px) {
+        .hotelList {
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+    }

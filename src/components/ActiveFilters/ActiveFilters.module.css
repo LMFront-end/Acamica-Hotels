@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&display=swap');
+.header__text {
+    margin: 5px 0;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: #2d3436;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
